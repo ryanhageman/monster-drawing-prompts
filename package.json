@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "monster_drawing_prompts",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Answers the question, what should I draw?",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ryan Hageman <ryan@rhageman.com>",
   "dependencies": {
     "gatsby": "^2.22.15",
     "gatsby-image": "^2.4.5",
@@ -22,7 +22,7 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "drawing prompts"
   ],
   "license": "MIT",
   "scripts": {
@@ -36,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ryanhageman/monster_drawing_prompts"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ryanhageman/monster_drawing_prompts/issues"
   }
 }
