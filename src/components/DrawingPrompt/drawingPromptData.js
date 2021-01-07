@@ -182,10 +182,42 @@ const PROMPT_DATA = {
 
   extra: [
     "has scales",
-    "has (randomized number up to 10) legs",
-    "has (randomized number up to 10) arms",
-    "has (randomized number up to 10) eyes",
-    "has (randomized number up to 10) teeth",
+    "has 2 legs",
+    "has 3 legs",
+    "has 4 legs",
+    "has 5 legs",
+    "has 6 legs",
+    "has 7 legs",
+    "has 8 legs",
+    "has 9 legs",
+    "has 10 legs",
+    "has 2 arms",
+    "has 3 arms",
+    "has 4 arms",
+    "has 5 arms",
+    "has 6 arms",
+    "has 7 arms",
+    "has 8 arms",
+    "has 9 arms",
+    "has 10 arms",
+    "has 2 teeth",
+    "has 3 teeth",
+    "has 4 teeth",
+    "has 5 teeth",
+    "has 6 teeth",
+    "has 7 teeth",
+    "has 8 teeth",
+    "has 9 teeth",
+    "has 10 teeth",
+    "has 2 eyes",
+    "has 3 eyes",
+    "has 4 eyes",
+    "has 5 eyes",
+    "has 6 eyes",
+    "has 7 eyes",
+    "has 8 eyes",
+    "has 9 eyes",
+    "has 10 eyes",
     "has sharp claws",
     "has fangs",
     "moves like a liquid",
@@ -212,7 +244,11 @@ const PROMPT_DATA = {
     "has floppy ears",
     "wears fancy hats",
     "has antennas",
-  ]
+  ],
+}
+
+function randomIntFromInterval(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 module.exports = PROMPT_DATA
