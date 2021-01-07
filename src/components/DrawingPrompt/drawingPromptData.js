@@ -23,7 +23,7 @@ const PROMPT_DATA = {
     "inside a rock",
     "under the grass",
     "on a leaf",
-    "in the computer",
+    "in a computer",
     "under the sink",
     "in a lake",
     "inside a crystal",
@@ -70,6 +70,10 @@ const PROMPT_DATA = {
     "is as light as a feather",
     "is smaller then an elephant",
     "is bigger than a pack of cards",
+    "could fit under the bathroom sink",
+    "fits under your bed",
+    "fits in your dresser drawer",
+    "sits under your desk"
   ],
 
   eats: [
@@ -154,7 +158,7 @@ const PROMPT_DATA = {
     "on a butterfly",
     "on a caterpillar",
     "on a school bus",
-    "in smoke",
+    "on smoke particles",
     "on a boat",
     "on the wind",
     "on a snowflake",
@@ -245,10 +249,6 @@ const PROMPT_DATA = {
     "wears fancy hats",
     "has antennas",
   ],
-}
-
-function randomIntFromInterval(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 module.exports = PROMPT_DATA
